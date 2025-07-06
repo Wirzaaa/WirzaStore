@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebTopUp - Top Up Game Favoritmu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feather Icons CDN for icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">WirzaStore</div>
+    <nav>
+      <a href="#berandaa" class="active">Beranda</a>
+      <a href="#produkk">Produk</a>
+      <a href="#tentangg">Tentang</a>
+      <a href="#kontakk">Kontak</a>
+    </nav>
+    <div class="cart">
+      <i data-feather="shopping-cart"></i>
+      <span class="cart-count" id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="berandaa">
+    <img class="hero-img" src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80" alt="Gaming Banner">
+    <h1 class="hero-title">Top Up Game Favoritmu, Instan & Aman!</h1>
+    <p class="hero-tagline">Dapatkan diamond, UC, Genesis Crystal, dan item premium lainnya dengan harga terbaik. Proses cepat, pembayaran mudah, dan layanan 24 jam.</p>
+    <button class="cta-btn" onclick="window.scrollTo({top: document.querySelector('.games-section').offsetTop - 60, behavior: 'smooth'})">Mulai Top Up Sekarang</button>
+  </section>
+
+  <!-- Games Section -->
+  <section class="games-section" id="produkk">
+    <h2 class="games-title">Pilih Game untuk Top Up</h2>
+    <div class="games-grid">
+      <!-- Game Card: Free Fire -->
+      <div class="game-card">
+        <img class="game-logo" src="https://tse4.mm.bing.net/th/id/OIP.diXTpNYJ6ZX0OQWqaUb1_wAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Free Fire">
+        <div class="game-name">Free Fire</div>
+        <a class="topup-btn" href=" https://wirzaaa.github.io/WirzaStore_Free_Fire/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+      <!-- Game Card: PUBG Mobile -->
+      <div class="game-card">
+        <img class="game-logo" src="https://images.genius.com/123ee0ff25a2324a183d6e6f25252fb6.450x450x1.jpg" alt="PUBG Mobile">
+        <div class="game-name">PUBG Mobile</div>
+        <a class="topup-btn" href=" https://wirzaaa.github.io/WirzaStore_Pubg/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+      <!-- Game Card: Mobile Legends -->
+      <div class="game-card">
+        <img class="game-logo" src="https://img.tapimg.net/market/images/86d2b5e8c665af935252f77110aec8b4.png/appicon" alt="Mobile Legends">
+        <div class="game-name">Mobile Legends</div>
+        <a class="topup-btn" href=" https://wirzaaa.github.io/WirzaStore_Mobile_Leagend/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+      <!-- Game Card: Genshin Impact -->
+      <div class="game-card">
+        <img class="game-logo" src="https://tse1.mm.bing.net/th/id/OIP.N6fVJjtDiRV9QFYFq7MkCgAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Genshin Impact">
+        <div class="game-name">Genshin Impact</div>
+        <a class="topup-btn" href="https://wirzaaa.github.io/WirzaStore_Genshin_impact/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+      <!-- Game Card: Honkai Star Rail -->
+      <div class="game-card">
+        <img class="game-logo" src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/06/83/f0/0683f0c4-c265-b39b-4034-ff20b3fa67d8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg" alt="Honkai Star Rail">
+        <div class="game-name">Honkai Star Rail</div>
+        <a class="topup-btn" href="https://wirzaaa.github.io/WirzaStore_Honkai_star_Rail/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+      <!-- Game Card: Wuthering Waves -->
+      <div class="game-card">
+        <img class="game-logo" src="https://assets-prd.ignimgs.com/2022/07/27/wuthering-waves-button-1658883291676.jpg" alt="Wuthering Waves">
+        <div class="game-name">Wuthering Waves</div>
+        <a class="topup-btn" href=" https://wirzaaa.github.io/WirzaStore_Wuthering_Waves/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+      <!-- Game Card: Zenless Zone Zero -->
+      <div class="game-card">
+        <img class="game-logo" src="https://tse3.mm.bing.net/th/id/OIP.K22AsmYyBZ0wjxf6PgVq4AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Zenless Zone Zero">
+        <div class="game-name">Zenless Zone Zero</div>
+        <a class="topup-btn" href=" https://wirzaaa.github.io/WirzaStore_Zenless_Zone_Zero/" target="_blank" rel="noopener">Top Up</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Kontak</h4>
+        <ul>
+          <li>Email: <a href="wirzariansyah12@gmail.com">support@webtopupwirza.com</a></li>
+          <li>WhatsApp: <a href="https://wa.me/6285255765223" target="_blank">+62 852-5576-5223</a></li>
+        </ul>
+      </div>
+      <div class="footer-section" id="kontakk">
+        <h4>Media Sosial</h4>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/wirzariansyah_?igsh=MWxncTR0Y3Nmb3V5cw==" title="Instagram"><i data-feather="instagram"></i></a>
+          <a href="#" title="Facebook"><i data-feather="facebook"></i></a>
+          <a href="#" title="Twitter"><i data-feather="twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-section" id="tentangg">
+        <h4>Tentang WebTopUp</h4>
+        <p>WirzaStore adalah platform top up game terpercaya, cepat, dan aman untuk semua gamer Indonesia.</p>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2024 WebTopUp. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // Feather icons
+    feather.replace();
+
+    // Dummy cart count (dynamic placeholder)
+    let cartCount = 0;
+    document.getElementById('cart-count').textContent = cartCount;
+
+    // Responsive navbar (optional: hamburger menu for mobile)
+    // For now, menu is always visible for simplicity
+  </script>
+</body>
+</html>
